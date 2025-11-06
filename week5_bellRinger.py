@@ -10,11 +10,23 @@ second_to_last_char = print(magic[-2])
 first_c_index = print(magic.index('c'))
 # find the last occurrence of the letter 'a'
 last_a_index = print(magic.rindex('a'))
+
+
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 # a. Extract the letters 'hij'.
+# hij = print(alphabet[7:10])
+hij = print(alphabet.index('hij'))
+hij2 = print(alphabet[7:10])
 # b. Extract every second letter starting from 'a' to 'm'.
+m_index = print(alphabet.index('m')) # ouput: 12
+every_second = print(alphabet[0:13:2]) #output: acegikm
 # c. Reverse the entire string using slicing.
+reversed_alphabet = print(alphabet[ : :-1]) # output
+i_have_a_dream = "I have a dream that one day this nation will rise up and live out the true meaning of its creed: We hold these truths to be self-evident, that all men are created equal"
+reversed_speech = print(i_have_a_dream[ : :-1])
+
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
