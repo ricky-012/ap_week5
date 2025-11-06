@@ -57,11 +57,19 @@ print(reversed_words)
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
+statement = "MAY THE FORCE BE WITH YOU."
+print(statement.lower())
 
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
 # a. Convert the list into a single string.
+motto = ["Make", "haste", "slowly."]
+joined_motto = ' '.join(motto)
+print(joined_motto)
+joined_motto_split =joined_motto_split('a')
+print(joined_motto_split) 
 # b. Now, split the string at every occurrence of the letter 'a'.
+
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
